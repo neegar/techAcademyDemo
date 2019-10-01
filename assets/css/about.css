@@ -1,0 +1,54 @@
+#navigation {
+    background-color: #400094!important;
+}
+
+#navigation .graduate {
+    background-color: #400094!important;
+}
+
+#navigation .graduate li {
+    color: #ffffff;
+}
+
+#navigation .graduate li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#navigation .graduate>li+li:before {
+    color: #ccc;
+    content: ">";
+    margin-right: 1rem;
+}
+
+#about .about-heading, #staff h3 {
+    color: #3A0285;
+}
+#staff .staff-images{
+    display: flex;
+}
+
+#footer {
+    background-color: #400094!important;
+}
+
+#footer h5 {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+#footer ul.quick-links li {
+    color: white;
+    font-size: 13px;
+}
+
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+#footer .address, .social {
+    margin-top: 2.5rem;
+}
